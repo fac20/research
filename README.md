@@ -5,6 +5,9 @@
 ### :sparkles: Please upload the notes from your tech spikes here: :sparkles:
 
 1. Upload your notes in the folder corresponding to the current week (weeks 1-8)
+   
+   If your presentation was made using HackMD, you can copy and paste the markdown straight into the new file, otherwise drop a link for others to follow (Google Slides, Canva, etc)
+
 2. If there **is no folder** for your current week, you are the first one to upload a file and have honour of making it! :tada:
 
 ##### How do I make a new folder?
