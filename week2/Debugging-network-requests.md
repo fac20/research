@@ -1,6 +1,6 @@
 # Debugging network requests :computer: 
 
-<!-- slide:(https://hackmd.io/@mofLNNBERUyqA8WPmxFAxQ/ry_9DVmgP#/3) -->
+ Slide:(https://hackmd.io/@mofLNNBERUyqA8WPmxFAxQ/ry_9DVmgP#/3) 
 
 ---
 
@@ -94,7 +94,7 @@ We will use Postman, which looks like this:
 
 ---
 
-![](https://i.imgur.com/RGvsbaQ.png)
+![](https://i.imgur.com/RGvsbaQ.png) 
 
 https://www.srijan.net/blog/manual-api-testing-using-postman
 
@@ -114,10 +114,10 @@ https://www.srijan.net/blog/manual-api-testing-using-postman
 
 <br>
 
-![](https://css-tricks.com/wp-content/uploads/2015/11/network-tab.gif =600x)
+![](https://css-tricks.com/wp-content/uploads/2015/11/network-tab.gif=600x) 
 
 ---
 
 ### Thank you! :yellow_heart: 
 
-![ ](https://media.giphy.com/media/cmNaji0Kvrhvaz6frN/giphy.gif)
+![](https://media.giphy.com/media/cmNaji0Kvrhvaz6frN/giphy.gif) 
