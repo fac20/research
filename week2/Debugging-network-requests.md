@@ -18,7 +18,7 @@ When we visit a webpage, we want all the files associated with that address.
 
 <br>
 
-![](https://media.giphy.com/media/3NtY188QaxDdC/giphy.gif =400x)
+![](https://media.giphy.com/media/3NtY188QaxDdC/giphy.gif)
 
 ---
 
@@ -31,7 +31,7 @@ When we visit a webpage, we want all the files associated with that address.
 ###### :grey_question: Was the page moved? If so we'll get a code of 301. 
 ###### :grey_question: Was that page deleted? If so we'll get back a code 410.
 
-![](https://media.giphy.com/media/Gui81MfPMvoWI/giphy.gif =200x)
+![](https://media.giphy.com/media/Gui81MfPMvoWI/giphy.gif)
 
 ---
 
@@ -114,7 +114,7 @@ https://www.srijan.net/blog/manual-api-testing-using-postman
 
 <br>
 
-![](https://css-tricks.com/wp-content/uploads/2015/11/network-tab.gif=600x) 
+![](https://css-tricks.com/wp-content/uploads/2015/11/network-tab.gif) 
 
 ---
 
