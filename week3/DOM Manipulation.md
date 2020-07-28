@@ -1,7 +1,7 @@
 # W3 Spike DOM Manipulation
 
 How can we use advanced DOM features to make rendering complex UIs easier?
-<!--slides: https://hackmd.io/@YlSaDuR1Qm6NdIcwGXlN1Q/H1nWM_hxD# -->
+slides: https://hackmd.io/@YlSaDuR1Qm6NdIcwGXlN1Q/H1nWM_hxD#
 
 ---
 
@@ -124,10 +124,6 @@ It an be used to add multiple elements to the document in one go by placing it i
 
 ![](https://i.imgur.com/NOT3fEb.png)
 
-
----
-
-Questions?
 
 
 
