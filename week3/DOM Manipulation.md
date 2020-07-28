@@ -97,18 +97,18 @@ querySelectorAll => NodeList.
 - A virtual undisplayed html element
 - Used as a lightweight version of the Document.
 - But not an active part of the Document tree structure.
-![](https://i.imgur.com/aYzIyML.png =400x)
+![](https://i.imgur.com/aYzIyML.png)
 
 ----
 
 Changes to the document fragment do not affect the document tree
-![](https://i.imgur.com/fLYDFjl.jpg =500x)
+![](https://i.imgur.com/fLYDFjl.jpg)
 
 
 ----
 
 It an be used to add multiple elements to the document in one go by placing it in the DOM tree
-![](https://i.imgur.com/LRgEuCb.jpg =500x)
+![](https://i.imgur.com/LRgEuCb.jpg)
 
 ---
 
