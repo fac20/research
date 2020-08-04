@@ -4,7 +4,7 @@
 
 ---
 
-![](https://media.giphy.com/media/WUDBBfR8WNNiY8PKbX/giphy.gif =900x)
+![](https://media.giphy.com/media/WUDBBfR8WNNiY8PKbX/giphy.gif)
 
 ---
 
@@ -21,7 +21,7 @@
 ### What it is not
 ---
 #### The event loop is not the call stack?
-![The event loop](https://javascriptbit.com/static/event-loop-833fa9b4297875ee574ce9291e3690d1-a79e3.png =400x300)
+![The event loop](https://javascriptbit.com/static/event-loop-833fa9b4297875ee574ce9291e3690d1-a79e3.png)
 
 ----
 
@@ -41,7 +41,7 @@
 
 ----
 
-![](https://i.imgur.com/uCrC6dB.png =500x)
+![](https://i.imgur.com/uCrC6dB.png)
 
 ----
 
@@ -49,11 +49,11 @@
 
 ----
 
-![](https://i.imgur.com/F0i35hp.png =500x)
+![](https://i.imgur.com/F0i35hp.png)
 
 ----
 
-![](https://media.giphy.com/media/eAkv7pEmlWCha/giphy.gif =800x)
+![](https://media.giphy.com/media/eAkv7pEmlWCha/giphy.gif)
 
 ---
 
@@ -61,14 +61,14 @@
 ---
 In synchronous programs, _if_ you have two lines of code (L1 followed by L2), then L2 cannot begin running until L1 has finished executing.
 
-![](https://steamusercontent-a.akamaihd.net/ugc/768273615166089737/C9CE63C1A9E039CD965A833AEA536A5698E3B079/ =500x)
+![](https://steamusercontent-a.akamaihd.net/ugc/768273615166089737/C9CE63C1A9E039CD965A833AEA536A5698E3B079/)
 
 ----
 
 ### Synchronous code
 ---
 One thing happens at a time - Functions form an orderly que and wait for the one infront to comlete.
-![](https://cms.qz.com/wp-content/uploads/2018/07/Eiffel-Tower-queue.jpg =500x)
+![](https://cms.qz.com/wp-content/uploads/2018/07/Eiffel-Tower-queue.jpg)
 
 ----
 
@@ -80,7 +80,7 @@ One thing happens at a time - Functions form an orderly que and wait for the one
 ---
 Functions can run simultaniusly. - Functions that take a long time to run do not block other code from completing. 
 
-![](https://images.idgesg.net/images/article/2018/11/black_friday-100630052-primary-resized-100780720-large.jpg =500x)
+![](https://images.idgesg.net/images/article/2018/11/black_friday-100630052-primary-resized-100780720-large.jpg)
 
 ---
 
@@ -139,13 +139,13 @@ This allows you to have as many IO operations as your OS can handle happening at
 
 ## **Modularisation and Promises**
 ---
-![](http://data.photofunky.net/output/image/0/b/9/c/0b9c5f/photofunky.gif =600x)
+![](http://data.photofunky.net/output/image/0/b/9/c/0b9c5f/photofunky.gif)
 
 ----
 
 Node.js, being an asynchronous platform, doesn't wait around for things like file I/O to finish - Node.js uses callbacks.
 
-![](https://www.totalprosports.com/wp-content/uploads/2014/03/27-shaq-call-me-maybe-shaq-gifs.gif =700x)
+![](https://www.totalprosports.com/wp-content/uploads/2014/03/27-shaq-call-me-maybe-shaq-gifs.gif)
 
 ---
 
@@ -169,7 +169,7 @@ Node.js, being an asynchronous platform, doesn't wait around for things like fil
 
 * Error-first callback!
 
-![](https://i.imgur.com/YmSRuN2.png =600x300)
+![](https://i.imgur.com/YmSRuN2.png)
 
 
 
@@ -221,7 +221,7 @@ Node thread keeps an event loop and whenever a task gets completed, it fires the
 
 ## Thank you!!
 ---
-![](https://i.imgur.com/0NsFZe8.gif =500x)
+![](https://i.imgur.com/0NsFZe8.gif)
 
 ---
 
