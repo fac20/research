@@ -145,7 +145,7 @@ Security
 
 #### Flexible data models
 
-![](https://media.giphy.com/media/3oriNUHm08iuTga3zG/giphy.gif =150x)
+![](https://media.giphy.com/media/3oriNUHm08iuTga3zG/giphy.gif)
 
 - NoSQL databases typically have very flexible schemas. 
 - A **Flexible Schema** === **Simple changes** to your database as requirements change. 
