@@ -1,0 +1,157 @@
+# GOTTA LOVE SOME QUERIES 
+
+---
+
+# What is a directive ?
+
+---
+
+- a directive is an instruction and in this case GraphQL has two main ones which are :
+- **@include** - which allows you to filter returned data
+- **@skip** - which allows you to omit data  
+- they both work if a passed in value or condition is true.
+
+---
+
+
+![](https://i.imgur.com/Tyb4oP5.png)
+
+
+---
+
+# What are arguments ?
+
+---
+
+- In many cases you will need to pass in arguments to your queries.
+
+![](https://i.imgur.com/7kOhyt2.png)
+
+
+---
+
+
+<!-- Ephie  -->
+
+# How do we use fragments in queries? Why would we?
+<!-- Amber -->
+
+----
+
+## What is a fragment ? 
+
+fragment: a reusable part of a query 
+
+3 unique components: name, typename, body
+
+```
+fragment Name on TypeName {
+  field1
+  field2
+  field3
+}
+```
+
+----
+
+## When to use a fragment
+```
+{
+  googleRepo: repository (owner:"google", name:"WebFundamentals") {
+    name
+    owner {
+      id,
+      avatarUrl
+      resourcePath
+      url
+    }
+  }
+  
+  facebookRepo: repository (owner:"facebook", name:"react") {
+    name
+    owner {
+      id,
+      avatarUrl
+      resourcePath
+      url
+      url
+    }
+  }
+```
+
+----
+
+## How to create a fragment
+
+```
+fragment ownerInfo on RepositoryOwner {
+  id
+  avatarUrl
+  resourcePath
+  url
+}
+```
+
+----
+
+## How to use a fragment 
+
+```
+{
+  googleRepo: repository(owner: "google", name: "WebFundamentals") {
+    name
+    owner {
+      ...ownerInfo //fragment
+    }
+  }
+  facebookRepo: repository(owner: "facebook", name: "react") {
+    name
+    owner {
+     ...ownerInfo //fragment
+    }
+  }
+}
+```
+
+<!-- ----
+
+### Bonus: on fragments and caching 
+
+ -->
+
+---
+
+### What is an operation name
+
+<!-- aishah -->
+
+> Operation name ≈ Function name
+
+```
+query Skeleton{
+    bone(id: 3241) {
+        name,
+        location
+    }
+}
+```
+
+<!-- Our choice -->
+
+---
+
+### Why use operation names
+
+- Best practice: use operation names and types 
+- makes codebase less ambiguous
+    - helps with debugging query in case of error
+- When we have more than one operation in a document
+    -  must be named otherwise error.
+
+---
+
+![example](https://media.giphy.com/media/xT9KVqOt8xuRYhNpq8/giphy.gif)
+
+---
+
+![](https://media.giphy.com/media/aCibltbaDuT2E/source.gif)
