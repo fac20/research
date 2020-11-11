@@ -1,0 +1,141 @@
+Link to slides: https://hackmd.io/@1R9DjbmDTMiphYm5DRWF1Q/Syv1jTrwv#/
+
+# Opportutoring (BONF) Research Spike
+
+---
+
+## :fire: Firebase :fire:
+We've been looking into the viability of using Firebase for our backend for several reasons.
+
+----
+
+#### Requirements
+1. We need strong authentication and the ability for our PO to add users without a sign up form.
+2. We want our PO to be able to manage the site and user data easily.
+3. We need a database and want to minimise time spent on building and connecting it.
+
+----
+
+#### Requirements
+5. Our PO and users need links to google docs and we hope to integrate that further into the site.
+6. Our mentor is working with Firebase and will be able to help us get unstuck.
+
+
+----
+
+### Authentication
+
+- Does Firebase Auth have all the capabilities we want? 
+    - specify who admins are
+    - limit sign-ups to admin
+    - users can be added, disabled or deleted easily by admin
+    - able to check user accessing the page (admin/not)
+    - user token can be easily accessible for client-side/server-side use
+
+----
+
+### NEW VOCAB
+
+> SDK = Software development kit
+
+![](https://media.giphy.com/media/1MTLxzwvOnvmE/source.gif)
+
+----
+
+### Firebase Console
+
+#### Manage Sign-in methods
+![](https://i.imgur.com/e8XWbub.png)
+
+----
+
+![](https://i.imgur.com/BAKL8Sg.png)
+
+----
+
+#### users can be added, disabled or deleted easily by admin
+![](https://i.imgur.com/8vPl94e.png)
+
+----
+
+
+#### user token can be (easily) accessible for client-side/server-side use
+
+> After a successful sign in, you can access the user's basic profile information, and you can control the user's access to data stored in other Firebase products. You can also use the provided authentication token to verify the identity of users in your own backend services.
+
+----
+
+#### able to check user accessing the page (admin/not)
+> Note: By default, authenticated users can read and write data to the Firebase Realtime Database and Cloud Storage. You can control the access of those users by modifying your Firebase Realtime Database and Cloud Storage Security Rules.
+
+----
+
+### Firestore Database
+
+Firestore is a horizontally scaling document-model NoSQL database in the cloud.
+
+NoSQL will require thinking about layout in a new way, but we have already had some good adcice from our mentore 
+
+----
+
+Most of this is not important for us. What's more valuable is the GUI that makes is easy to create and manage data.
+
+![](https://i.imgur.com/aQkRpUs.png)
+
+----
+
+### Firebase Pricing
+
+![](https://i.imgur.com/IQdeWpG.png)
+
+https://firebase.google.com/pricing
+
+---
+
+## Storybook :book: 
+
+set up: 
+
+npx create-react-app
+
+npx sb init
+
+npm run storybook (this will run the script that the init command added for us in the package.json)
+
+---
+
+A storybook is a collection of stories and each story represents a single visual state of a component. 
+
+---
+
+### Writing a simple story for a button component
+
+As part of the story writing process we need to have 3 main files:
+
+- the component (Button.js)
+- styles related to the component (Button.css)
+- story corresponding to the component (Button.stories.js)
+
+
+
+---
+
+## React Scheduler :date:
+
+![](https://i.imgur.com/Pgx9JG5.png)
+
+---
+
+![](https://i.imgur.com/7KgmBPn.png =800x)
+
+
+---
+
+## Little Demo
+
+---
+
+# Thank you
+
+
+--- 
