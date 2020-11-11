@@ -1,0 +1,195 @@
+## How to make a GraphQL request in React
+
+---
+
+```=
+npm install @apollo/client graphql
+```
+
+- **@apollo/client**: This single package contains virtually everything you need to set up Apollo Client. It includes the in-memory cache, local state management, error handling, and a React-based view layer.
+- **graphql**: This package provides logic for parsing GraphQL queries.
+
+---
+
+Index.js
+
+```=
+import { 
+    ApolloClient, 
+    InMemoryCache 
+} from '@apollo/client';
+
+const client = new ApolloClient({
+  uri: 'https://graphql-pokemon.now.sh/',
+  cache: new InMemoryCache()
+});
+```
+
+---
+
+To connect to our React components:
+
+
+```=
+import { 
+    ApolloClient, 
+    InMemoryCache, 
+    ApolloProvider 
+} from '@apollo/client';
+
+const client = new ApolloClient({
+  uri: 'https://graphql-pokemon.now.sh/',
+  cache: new InMemoryCache()
+});
+
+ReactDOM.render(
+    <ApolloProvider client={client}>
+        <App />
+    </ApolloProvider>, 
+    document.getElementById('root'));
+
+```
+
+---
+
+Now we have our client set up, we are ready to write queries.
+Lets go to App.js
+
+---
+
+```=
+import { useQuery, gql } from '@apollo/client';
+
+const POKEMON_LIST = gql`
+    query getPokemon{
+        pokemons(first: 150) {
+          id
+          number
+          name,
+          image,
+          evolutions {
+            id,
+            number,
+            name,
+            image
+          }
+        }
+     }
+`;
+```
+
+---
+
+```=
+function PokemonList() {
+  const { loading, error, data } = useQuery(POKEMON_LIST);
+
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error :(</p>;
+
+  return data.pokemons.map((pokemon, index) => (
+    <div key={index}>
+      ...................................
+    </div>
+  ));
+}
+```
+
+
+
+---
+
+### Why is caching important?
+
+* We implement caching to increase the performance of our applications and decrease loads on our servers.
+
+* Google observed that 53% of page visitors leave the page if it takes more than three seconds to load.
+
+---
+
+### What is the role of caching in GraphQL? 
+
+ > ##### REST API’s are able to utilize the full capabilities of HTTP protocols to cache response data (GET), but GraphQL dispatches queries through POST requests to a single endpoint.
+
+It's easy to cache RESTful GET requests because their uniqueness or rather their cache key can simply be the request URL itself. 
+
+---
+
+### Current cache solutions
+
+##### Up to devs to implement their own caching - Read [here](https://logaretm.com/blog/2020-02-24-caching-graphql-requests/) for an example.
+
+* ##### [Apollo ](https://www.apollographql.com/) - Apollo includes a default cache implementation for Apollo Client 2.0. It’s called InMemoryCache and it is a normalized data storage.
+* ##### [Relay Library ](https://relay.dev/)
+* ##### [FlacheQL ](https://github.com/FlacheQL/FlacheQL)offers partial retrieval of cached data based on search parameters — a feature that no other GraphQL library offers.
+
+<!-- If you’re dealing with a large application that requires only partial retrievals on query fields, Apollo or Relay can integrate with Redux, for example, in order to use their caches as the single-source-of-truth in your application. However, if you’re dealing with a smaller app where speed is a central concern and where caching on both parameters and fields (or just on parameters) is a necessity, FlacheQL may be the better option. -->
+
+---
+
+## What is a GraphQL client? 
+
+Put as simply as possible, a GraphQL client is code that makes a **POST** request to a GraphQL Server
+
+In the body of the request we send a GraphQL query or mutation as well as some variables and we expect to get some JSON back. 
+
+```
+query example($someVariable: String) {
+  someField(someVariable: $someVariable) {
+    field1
+    field2
+  }
+}
+```
+
+---
+
+## Two types of clients
+
+**1. Fetch Client:**
+
+A fetch client handles sending GraphQL queries/mutation and variables to the GraphQL server in an ergonomic way for the developer.
+
+---
+
+**2. Caching Client:**
+
+A caching client does the same thing as a fetch client, but includes a way for the application to store data in memory. 
+
+These clients are built to reduce network trips the application makes and provides a helping hand in managing application state. 
+
+With a caching client you can keep your data layer concerns separate from your view layer.
+
+---
+
+
+
+---
+
+## What are some examples? 
+
+| Fetching Clients                                                  | Caching Clients                                                        |
+| ----------------------------------------------------------------- | --------------------------------------------------------------- |
+| [FetchQL](https://github.com/gucheen/fetchql)                     | [URQL](https://github.com/FormidableLabs/urql)                  |
+|            [GraphQL Request](https://github.com/prisma-labs/graphql-request)                                                        |                                                      [Relay](https://github.com/facebook/relay)           |
+| | [Apollo Client](https://github.com/apollographql/apollo-client) |
+
+---
+
+## Why would we use one?
+
+1. Sending correctly formed requests
+2. Keeping your UI consistent across queries
+3. Updating the cache
+
+---
+
+## Resources
+
+1. [Podcast episiode on GraphQL clients](https://www.youtube.com/watch?v=pvgvcilFj9M&feature=youtu.be&ab_channel=GraphQLRadio)
+
+2. [Caching With GraphQL](https://blog.usejournal.com/caching-with-graphql-what-are-the-best-options-e161b0f20e59)
+
+3. [GraphQL vs Rest: Caching](https://blog.graphqleditor.com/grapqhl-vs-rest-caching/)
+
+4. [Why you might want a GraphQl client](https://www.apollographql.com/blog/why-you-might-want-a-graphql-client-e864050f789c/)
