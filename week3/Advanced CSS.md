@@ -20,7 +20,7 @@ selects nodes that are direct children of the first element
 
 Example: ul > li will match all `<li>` elements that are nested directly inside a `<ul>` element.
 
----
+--- 
 
 General sibling combinator ➡️ **~** 
 

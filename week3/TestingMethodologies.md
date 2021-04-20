@@ -19,6 +19,10 @@ slide: https://hackmd.io/@akshayasatheesh/B1k_Zu3xD#/
 
 ----
 
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.acnMuXX_oPBB5f8EcWwa-gHaHa%26pid%3DApi&f=1" width="100" alt="egg" />
+
+
 What is TDD?
 
 ##### * TDD is used for improved test coverage, which leads to 40%-80% fewer bugs in production. :bug: 

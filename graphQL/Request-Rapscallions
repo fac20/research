@@ -12,7 +12,7 @@ npm install @apollo/client graphql
 ---
 
 Index.js
-
+ 
 ```=
 import { 
     ApolloClient, 

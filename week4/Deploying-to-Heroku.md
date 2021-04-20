@@ -21,7 +21,7 @@
 - Static website with limited functionality
 
 - GitHub pages only hosts static HTML pages
-
+ 
 ----
 
 - Node.js builds **applications**

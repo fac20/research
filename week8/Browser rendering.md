@@ -10,7 +10,7 @@ When a browser recieves an HTML page from the server, there are a lot of steps t
 The CRP is the sequence a browser needs to take before 'painting' anything on the page. 
 
 ----
-
+ 
 ### Key terms
 * **Parsing** = translating/reading code 
 * **Rendering** = displaying 

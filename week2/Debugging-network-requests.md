@@ -19,7 +19,7 @@ When we visit a webpage, we want all the files associated with that address.
 <br>
 
 ![](https://media.giphy.com/media/3NtY188QaxDdC/giphy.gif)
-
+ 
 ---
 
 ### Errors :shocked_face_with_exploding_head: 

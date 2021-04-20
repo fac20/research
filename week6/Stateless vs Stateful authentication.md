@@ -13,6 +13,9 @@
 
 ---
 
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.Wak6gD9NQr_w9tWv0I5j8wDcEb%26pid%3DApi&f=1" width="100" alt="egg" />
+
 ### What is session-based (stateful) authentication? 
 
 ----

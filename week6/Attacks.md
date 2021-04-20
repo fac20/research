@@ -13,7 +13,7 @@ slideOptions:
 ### How can our websites be vulnerable to hacking?
 
 ![](https://media.giphy.com/media/uHJh2qDkie2RO/giphy.gif)
-
+ 
 ---
 
 ## What is Cross Site Scripting? (XSS)

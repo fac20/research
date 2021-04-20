@@ -11,7 +11,7 @@
 ### To the beginning
 
 Database - structured collection of data
-
+ 
 Database Management System (DBMS) - handles access to structured data, one DBMS can manage multiple databases (like PostgreSQL)
 
 SQL - a standard language for relational database management systems (RDBMS)

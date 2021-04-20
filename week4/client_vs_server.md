@@ -18,7 +18,7 @@ What are the distinctions between a web client and a web server?
 ## Client
 
 A client is computer hardware or software that accesses a service/data made available by a server as part of the client–server model of computer networks.
-
+ 
 A server is often but not always on another computer system, in which case the client will access the server via a network.
 
 ----

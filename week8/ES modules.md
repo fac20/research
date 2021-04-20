@@ -9,6 +9,8 @@ slideOptions:
 # How can we modularise our client-side JavaScript?
 
 
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.QR_QR-KfIawCM9F_Vc4iXQHaGl%26pid%3DApi&f=1" width="100" alt="egg" />
+
 ## What are the different ways we can import/export code?
 
 ![](https://2r4s9p1yi1fa2jd7j43zph8r-wpengine.netdna-ssl.com/files/2018/03/04_import_graph-500x291.png)

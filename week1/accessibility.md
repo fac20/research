@@ -16,7 +16,7 @@ slides: https://hackmd.io/p/YNltuB6RR4Sug92IYplbEQ
 
 ![DIV vs Semantic HTML](https://i.imgur.com/vu2uTRp.png =400x)
 
----
+--- 
 
 ### SEO
 Semantic markup helps ensure that valuable content reaches your *target audience* :dart:	

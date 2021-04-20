@@ -50,6 +50,10 @@ console.log(author);
 
 ---
 
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.j1tCVst_xTc20IZhE_ERwgHaHa%26pid%3DApi&f=1" width="100" alt="egg" />
+
+
 We can fix this problem by using an API with an asynchonous function- 'readAsync' 
 ```
 readAsync(dictionary_location, function(){

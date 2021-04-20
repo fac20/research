@@ -17,7 +17,7 @@
 <!-- By efficiently, we mean optimising and balancing image size & resolution, website performance (load speed) and have responsive images (different images to suit different devices)
 -->
 
----
+--- 
 
 ![](https://media0.giphy.com/media/gVJKzDaWKSETu/giphy.gif?cid=ecf05e47rbaqzomk35buljwa3kj7vd9q5rxluniq3kgs2dlb&rid=giphy.gif =200x)
 

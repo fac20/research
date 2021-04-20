@@ -11,7 +11,7 @@
 ---
 
 <!-- Shaya -->
-> SQLi was possibly first documented by Jeff Forristal in the hacker zine Phrack, in 1998.
+> SQLi was possibly first documented by Jeff Forristal in the hacker zine Phrack, in 1998. 
 
 <br>
 

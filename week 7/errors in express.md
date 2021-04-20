@@ -11,6 +11,10 @@ slideOptions:
 
 ----
 
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.pGh2d_2q3409T8LBUnPGggAAAA%26pid%3DApi&f=1" width="100" alt="egg" />
+
+
 ## Error Types
 <!-- Ephie -->
 

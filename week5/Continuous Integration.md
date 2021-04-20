@@ -14,7 +14,7 @@ In it's most basic form CI is the automatic continuious testing of your code
 
 - CI encourages developers to share their code and unit tests by merging their changes into a shared version control repository after every small task completion.
 
----
+--- 
 
 ![](https://camo.githubusercontent.com/f8d81cb60ee4c65a00a92056c3ec97008a8cb547/68747470733a2f2f692e696d6775722e636f6d2f3849455a4632442e706e67)
 

@@ -37,8 +37,10 @@ DEMO
 - 
 - It removes the mapping between components and styles. This means that when you're defining your styles, you're actually creating a normal React component, that has your styles attached to it.
 
-
+ 
 ---
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mDDvpOm3VkQ9Q4MfALDYMgHaHa%26pid%3DApi&f=1" width="100" alt="egg" />
 
 installation:
 ```

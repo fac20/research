@@ -23,7 +23,7 @@ Prettier is an opinionated code formatter
 ## What is Static Analysis?
 
 ![](https://media.giphy.com/media/3oFyCZm9jPjlzsAwXS/giphy.gif)
-
+ 
 ----
 
 Static analysis is a method of debugging by automatically examining source code before a program is run.

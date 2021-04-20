@@ -10,6 +10,9 @@
 
 ----
 
+
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.yxkGvUU0K65ZGpIuT4YXewHaGf%26pid%3DApi&f=1" width="100" alt="egg" />
+
 ### schema
 * A collection of database objects associated with a database.
 * A blueprint of how the database is constructed

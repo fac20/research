@@ -20,7 +20,7 @@ slides: https://hackmd.io/@YlSaDuR1Qm6NdIcwGXlN1Q/H1nWM_hxD#
 var nodeList = document.querySelectorAll("p");
 ```
 - N.B. You will not get a nodelist if you use `querySelector()`
-
+ 
 ----
 
 - You can select nodes in a nodelist much like accessing arrays by using bracket notation.

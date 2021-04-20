@@ -20,7 +20,7 @@ How can we debug CSS grid and flexbox layouts?
 Element panel is a feature in the chrome developer tools that allows you to inspect and modify a site from the front-end. It’s used to change the appearance and content of a web page by editing its CSS and HTML files.
 
 ----
-
+ 
 #### Inspecting a Page :female-detective: :male-detective: 
 
 Inspecting a page allows the user access to elements and styles within. In turn it allows a user to debug, layout test, temporary edit and CSS live edit them within the inspector.

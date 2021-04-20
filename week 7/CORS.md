@@ -11,7 +11,7 @@ slideOptions:
 ## Cross-origin Resource Sharing (CORS)
 
 ---
-
+ 
 ## Context <!-- Shaya -->
 
 ![](https://media.giphy.com/media/26ueYED6hliMtLM3K/giphy.gif)

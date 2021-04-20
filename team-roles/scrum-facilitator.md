@@ -13,7 +13,7 @@
 
 ## Project Boards/Kanban
 
-----
+---- 
 
 ### Jira - How to use Jira
 - Jira is has more comprehensive project boards than github
